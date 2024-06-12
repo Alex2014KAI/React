@@ -1,0 +1,26 @@
+.postWrapper{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.Post{
+    font-size: 16px;
+    margin: 10px;
+}
+
+.imageLike{
+    max-width: 40px;
+    max-height: 40px;
+}
+
+.imageLike__img{
+    max-width: 40px;
+    max-height: 40px;
+}
+
+.cauntLike{
+    font-size: 20px;
+}

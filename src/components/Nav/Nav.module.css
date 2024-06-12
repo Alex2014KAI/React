@@ -1,14 +1,14 @@
 .nav{
-    grid-area: n;
-    background-color: #f8ffe3;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
-  
-  .nav__link{
-    align-self: center;
-    text-decoration: none;
-    color:#000000;
-    gap:10px;
-  }
+  grid-area: n;
+  background-color: #f8ffe3;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.nav__link{
+  align-self: center;
+  text-decoration: none;
+  color:#000000;
+  gap:10px;
+}
