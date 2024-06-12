@@ -1,0 +1,86 @@
+.content{
+    display: flex;
+    flex-direction: column;
+    grid-area: c;
+    background: #d5eeca;
+    gap: 10px;
+  }
+  
+  .content__img{
+    height: 150px;
+    width: 100%;
+  }
+  
+  .cart{
+    display: flex;
+    gap: 10px;
+  }
+  
+  .cart__img{
+    max-width: 100px;
+    max-height: 100px;
+  }
+  
+  .cart__content{
+    
+  }
+
+  .Name{
+    font-size: 30px;
+    color: rgb(63, 230, 42);
+
+  }
+
+  .dataBritch{
+
+  }
+
+.City{
+
+}
+
+.Education{
+
+}
+
+.WebSite{
+
+}
+  
+  .content__myPost{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  .input{
+    height: 35px;
+    width: 400px;
+  }
+  
+  .btn{
+    height: 35px;
+    width: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 300ms;
+    margin: 10px 0px;
+  }
+  
+  .btn:hover{
+    background: #c5c8c9;
+  }
+
+  .content__otherPosts{
+
+  }
+  
+  @counter-style circled-alpha {
+    system: fixed;
+    symbols: 😁 😇 😋 🤪 😎;
+    suffix: " ";
+  }
+  
+  ul{
+    list-style: circled-alpha;
+  }
